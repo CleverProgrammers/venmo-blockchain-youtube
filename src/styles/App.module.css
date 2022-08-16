@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 2rem;
+  flex: 1;
+  gap: 1.5rem;
+}
+
+.activityContainer {
+  flex: 1;
+}
+
+.sideContainer {
+  width: 40%;
+}
